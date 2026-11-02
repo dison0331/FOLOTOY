@@ -1,0 +1,76 @@
+# ===== IDE / 编辑器 =====
+.codeartsdoer/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 构建产物（ESP-IDF / C/C++） =====
+build/
+build-*/
+build-public/
+build-diag/
+dist/
+output/
+release/
+managed_components/
+dependencies.lock
+*.o
+*.a
+*.so
+*.dll
+*.lib
+*.exe
+*.obj
+
+# ===== 固件产物 =====
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+
+# ===== ESP-IDF 配置快照 =====
+sdkconfig
+sdkconfig.old
+sdkconfig.diag
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+#.venv/
+#venv/
+
+# ===== Node.js =====
+node_modules/
+
+# ===== 日志 / 缓存 / 临时 =====
+*.log
+.cache/
+.tmp/
+*.tmp
+*.bak
+*.orig
+*.rej
+lingshi/
+
+# ===== 压缩包 =====
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+
+# ===== 本地环境配置 =====
+.env
+.env.local
+.env.*.local
