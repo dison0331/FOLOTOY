@@ -1,0 +1,19 @@
+# 查看改动
+git status
+# 把所有改动加入暂存
+git add .
+# 提交，备注写清楚改了啥
+git commit -m "这里写修改说明"
+# 推送到 GitHub
+git push
+# 拉取别人刚推上去的最新代码
+git pull
+
+
+# 修改名字
+git config --global user.name "新名字"
+
+# 修改邮箱
+git config --global user.email "新邮箱"
+
+git config --global --list
