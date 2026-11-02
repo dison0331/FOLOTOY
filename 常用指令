@@ -17,3 +17,7 @@ git config --global user.name "新名字"
 git config --global user.email "新邮箱"
 
 git config --global --list
+
+
+# 克隆项目(加速镜像)
+git clone https://ghfast.top/项目地址
