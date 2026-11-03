@@ -20,7 +20,6 @@ dist/
 output/
 release/
 managed_components/
-dependencies.lock
 *.o
 *.a
 *.so
@@ -29,12 +28,32 @@ dependencies.lock
 *.exe
 *.obj
 
-# ===== 固件产物 =====
-*.bin
-*.elf
-*.map
-*.hex
-*.uf2
+# ===== 固件产物（收窄到构建/输出目录，避免误伤资源） =====
+build/**/*.bin
+build/**/*.elf
+build/**/*.map
+build/**/*.hex
+build/**/*.uf2
+build-*/**/*.bin
+build-*/**/*.elf
+build-*/**/*.map
+build-*/**/*.hex
+build-*/**/*.uf2
+dist/**/*.bin
+dist/**/*.elf
+dist/**/*.map
+dist/**/*.hex
+dist/**/*.uf2
+output/**/*.bin
+output/**/*.elf
+output/**/*.map
+output/**/*.hex
+output/**/*.uf2
+release/**/*.bin
+release/**/*.elf
+release/**/*.map
+release/**/*.hex
+release/**/*.uf2
 
 # ===== ESP-IDF 配置快照 =====
 sdkconfig
@@ -46,8 +65,9 @@ __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
-#.venv/
-#venv/
+.venv/
+venv/
+env/
 
 # ===== Node.js =====
 node_modules/
