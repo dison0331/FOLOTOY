@@ -1,10 +1,10 @@
 {
   "globalPaused": false,
   "isSingle": false,
-  "isInitial": false,
-  "codebaseId": "1276874997557710848",
-  "codebaseBranchId": "1277245505226756096",
-  "taskId": "1277245505306447872",
+  "isInitial": true,
+  "codebaseId": "1277501182683729920",
+  "codebaseBranchId": "1277501182784393216",
+  "taskId": "1277501182847307776",
   "branch": "main",
   "isBaselineInitial": false
 }
