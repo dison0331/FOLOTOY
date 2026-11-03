@@ -9,7 +9,7 @@
 ## 阶段流程
 
 1. ✅ 需求规格设计（spec-requirement-agent）— spec.md 已生成（.codeartsdoer/specs/ai_passport_apps/spec.md，612行），待用户确认
-2. ⬜ 实现方案创建（spec-design-agent）— 待生成 design.md
+2. ✅ 实现方案创建（spec-design-agent）— design.md 已生成（570行），待用户确认
 3. ⬜ 编码任务规划（spec-task-agent）— 待生成 tasks.md
 4. ⬜ 编码任务执行 — 待实现
 5. ⬜ 构建验证 — 待 WSL 构建
@@ -37,7 +37,7 @@
 
 - [x] 调用 spec-requirement-agent 生成 spec.md（.codeartsdoer/specs/ai_passport_apps/spec.md，612行）
 - [ ] 呈现 spec.md 摘要，询问用户是否修改
-- [ ] 生成 design.md
+- [x] 生成 design.md（.codeartsdoer/specs/ai_passport_apps/design.md，570行）
 - [ ] 生成 tasks.md
 - [ ] 新建开发分支
 - [ ] 实现应用代码 + 系统层功能
