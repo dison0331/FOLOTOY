@@ -82,13 +82,6 @@ node_modules/
 *.rej
 lingshi/
 
-# ===== 压缩包 =====
-*.zip
-*.tar
-*.gz
-*.tgz
-*.rar
-*.7z
 
 # ===== 本地环境配置 =====
 .env
