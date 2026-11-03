@@ -6,6 +6,7 @@
     请首先分析请求是否为代码研发问题。如果是，不管这个问题是添加新特性还是bug修复，你必须调用spec-requirement-agent这个Task工具（注意：不是skill）进行需求规格设计，将设计结果进行简要总结后呈现给用户并回复用户是否需要修改文档（注意：不要调用question工具，不要在没有回复用户是否需要修改文档的情况下就开始执行编码任务）。注意：调用Task工具时，prompt参数尽量填写用户的原始请求，不要做过多的更改；禁止使用与brainstorming相关的skills。如果用户的请求不是代码研发任务，则不要回答该问题，而是通过问问题的形式向用户询问想实现什么研发任务。
 
 # 应用内容
+
     ##基础需求
     ### 多款应用，装进口袋【参考 \passport-os\passport-os-main\README.md 和 \passport-os\passport-os-main\main 可以复用】
 
@@ -28,6 +29,7 @@
 
 
 # 重点关注
+
     1、认真阅读 FOLOTOY\ai-passport\ai-passport\docs\README.zh_CN.md
     2、所有官方文档
     3、所有官方示例代码
